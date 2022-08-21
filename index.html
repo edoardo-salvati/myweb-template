@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   
   <title>Il dominio dei robot - Martin Ford</title>
+  <meta name="description" content="Leggi un libro unico su intelligenza artificiale e robot. Martin Ford ci dà una panoramica della rivoluzione in economia, politica e vita"/>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -21,34 +22,38 @@
 <body>
 
   <!-- Navigation Bar -->
-  <nav class="white" role="navigation">
-    
-    <div class="nav-wrapper container">
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
       
-      <a id="logo-container" href="#" class="brand-logo">IA & Robots</a>
-      
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#servizio">Servizio</a></li>
-        <li><a href="#registrazione">Registrazione</a></li>
-        <li><a href="#message">Messaggio</a></li>
-      </ul>
+      <div class="nav-wrapper container">
+        
+        <a id="logo-container" href="#" class="brand-logo">IA&Robots</a>
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">Menu</i></a>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#servizio">Servizio</a></li>
+          <li><a href="#registrazione">Registrazione</a></li>
+          <li><a href="#compile">Compila</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="#servizio">Servizio</a></li>
+          <li><a href="#registrazione">Registrazione</a></li>
+          <li><a href="#compile">Compila</a></li>
+        </ul>
+            
+      </div>
     
-    </div>
-  
-  </nav>
+    </nav>
+  </div>
 
   <!-- General Information -->
   <div id="index-banner" class="parallax-container">
     
-    <div class="section no-pad-bot">
+    <div class="section-mobile no-pad-bot">
       
-      <div class="container">
+      <div id="titolo" class="container">
         
         <br><br>
         <h1 class="header center teal-text text-lighten-2">Il dominio dei robot - Martin Ford</h1>
@@ -76,7 +81,7 @@
     <div class="section">
 
       <!--   Icon Section   -->
-      <div class="row">
+      <div class="row servizio-icons">
         
         <div class="col s12 m4">
           
@@ -120,11 +125,11 @@
   <!-- Registrazione -->
   <div id="registrazione" class="parallax-container valign-wrapper">
     
-    <div class="section no-pad-bot">
+    <div class="section-mobile no-pad-bot">
       
       <div class="container">
         
-        <div class="row center">
+        <div class="row center register-div">
           
           <h5 class="header black-text">A modern responsive registration framework based on Material Design</h5>
           <div class="row">
@@ -178,17 +183,17 @@
   </div>
 
   <!-- Compile Form -->
-  <div class="parallax-container valign-wrapper">
+  <div id="compile" class="parallax-container valign-wrapper">
     
-    <div class="section no-pad-bot">
+    <div class="section-mobile no-pad-bot">
       
       <div class="container">
         
         <div class="row center">
-          <h5 class="header col s12 m6">A modern responsive framework to fill in forms based on Material Design</h5>
+          <h5 class="header col s12 m6">A modern responsive framework to fill out forms based on Material Design</h5>
           
-          <a data-tf-slider="MLhJ8mtx" data-tf-width="550" data-tf-position="left" data-tf-iframe-props="title=My typeform" data-tf-medium="snippet" id="download-button3" class="btn-large waves-effect waves-light orange lighten-1">Compila il questionario !</a>
-          <!--<a href="#!" id="download-button3" class="btn-large waves-effect waves-light orange lighten-1">Compila il questionario !</a>-->
+          <!--<a data-tf-slider="MLhJ8mtx" data-tf-width="550" data-tf-position="left" data-tf-iframe-props="title=My typeform" data-tf-medium="snippet" id="download-button3" class="btn-large waves-effect waves-light orange lighten-1">Compila il questionario !</a>-->
+          <a href="https://forms.gle/kcHbdAEBQ3iTq3bA7" id="download-button3" class="btn-large waves-effect waves-light orange lighten-1 col s12 m6" target="_blank">Compila il questionario !</a>
         </div>
       
       </div>
@@ -244,7 +249,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-  <script src="https://embed.typeform.com/next/embed.js"></script>
+  <!--<script src="https://embed.typeform.com/next/embed.js"></script>-->
 
   </body>
 </html>

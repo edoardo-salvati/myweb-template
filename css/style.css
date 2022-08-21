@@ -30,9 +30,11 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.section-mobile {
+  width: 100%;
+  height: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -50,6 +52,10 @@ p {
   }
 }
 
+.servizio-icons {
+  margin-top: 20px;
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -61,11 +67,14 @@ footer.page-footer {
   margin: 0;
 }
 
+#titolo {
+  margin-top: 1%;
+}
+
 #download-button2 {
   width: 100%;
 }
 
 #download-button3 {
   margin-top: 2%;
-  width: 35%;
 }
