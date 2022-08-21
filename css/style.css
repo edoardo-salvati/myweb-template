@@ -62,9 +62,10 @@ footer.page-footer {
 }
 
 #download-button2 {
-  margin-top: 8%;
+  width: 100%;
 }
 
 #download-button3 {
   margin-top: 2%;
+  width: 35%;
 }
